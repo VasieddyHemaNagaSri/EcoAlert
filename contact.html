@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contactstyle.css"> 
+    <link rel="icon" href="logo.jpg"> 
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(#ffdad5, #fff7f9);
+            height: 100%;
+            width:100%
+        }
+
+        nav {
+            width: 100%;
+            position: fixed; 
+            top: 0; 
+            background-color: rgb(0, 102, 0); 
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            list-style:none;
+            display:inline-block;
+            margin-left: 40px;
+        }
+
+        nav a {
+            color: white;
+            font-size: 18px;
+            padding: 10px 22px;
+            border-radius: 4px;
+            font-weight: 500;   
+            text-decoration: none;
+            transition: ease 0.40s;
+        }
+
+        nav a:hover {
+            background: white;
+            color: black;
+            box-shadow: 5px 10px 30px rgba(85, 85, 85, 0.2);
+            border-radius: 5px;
+        }
+
+        .contact-container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 80px; 
+        }
+        .contact-left {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 15px;
+        }
+
+        .contact-left-title h2 {
+            font-weight: 600;
+            color: #a363aa;
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .contact-left-title hr {
+            border: none;
+            width: 120px;
+            height: 5px;
+            background-color: #a363aa;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-inputs {
+            width: 400px;
+            height: 50px;
+            border: none;
+            outline: none;
+            padding-left: 25px;
+            font-weight: 500;
+            color: #666;
+            border-radius: 50px;
+        }
+
+        .contact-left textarea {
+            height: 140px;
+            padding-top: 15px;
+            border-radius: 20px;
+        }
+
+        .contact-inputs:focus {
+            border: 2px solid #ff994f;
+        }
+
+        .contact-inputs::placeholder {
+            color: #a9a9a9;
+        }
+
+        .contact-left button {
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: #fff;
+            gap: 10px;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(270deg, #ff994f, #fa6d86);
+            cursor: pointer;
+        }
+
+        .contact-right img {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.jpg" width="125" height="125" class="logo" alt="Logo" title="ECOALERT">
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="0e2811f0-8a61-43e0-96c1-caf4db5ffa05">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-right">
+            <img src="pic14.webp" alt="">
+        </div>
+    </div>
+</body>
+</html>
