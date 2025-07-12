@@ -23,25 +23,6 @@
 
 ---
 
-## 📦 **Project Structure**
-
-```plaintext
-EcoAlert/
-├── index.html              # Home page
-├── login.html              # Login / Sign-in page
-├── set_notification.php    # Add/update plant notifications
-├── css/
-│   └── style.css           # Stylesheet
-├── js/
-│   └── script.js           # JavaScript logic
-├── php/
-│   ├── register.php        # Handle user registration
-│   ├── login.php           # Handle login
-│   ├── update_plants.php   # Update plant data
-│   └── notify.php          # Notification logic
-└── README.md
-
-```
 ## ⚙️ **How It Works**
 
 - 📝 User signs up and logs in.
