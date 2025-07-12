@@ -7,12 +7,10 @@
 ## ✅ **Features**
 
 - 🌱 User registration & secure login
-- 📍 Add up to 3 plants with location details
+- 📍 Add plants name with location details
 - 🌡️ Fetches real-time weather data
 - ⚠️ Instant notifications if weather temperature exceeds safe plant thresholds
 - 🔄 Update plant details or monitored location anytime
-- 📱 Fully responsive design (works on laptops, tablets & mobiles)
-
 ---
 
 ## 🛠 **Technologies Used**
@@ -21,7 +19,7 @@
 - **Backend:** PHP
 - **Database:** MySQL
 - **API:** Weather API
-- **Notifications:** Email or web push (depending on setup)
+- **Notifications:** Email or web push 
 
 ---
 
@@ -44,41 +42,37 @@ EcoAlert/
 └── README.md
 
 ```
+## ⚙️ **How It Works**
+
+- 📝 User signs up and logs in.
+- 🌿 Adds up to **plant names** and a **location**.
+- 🌡️ The system fetches current **weather temperature** for the location.
+- ⚠️ If the temperature exceeds the required temperature for any plant, a **notification** is triggered.
+- 🔄 Users can log in later to **update** or **add new plants**.
+
 ---
-⚙️ How It Works
-User signs up and logs in.
 
-Adds up to three plants and a location.
+## 🌍 **Target Users**
 
-The system fetches current weather temperature for the location.
+- 🏡 Nurseries
+- 🌱 Gardeners & home garden enthusiasts
+- 👩‍🌾 Horticulturists
 
-If temperature exceeds the required temperature for any plant, a notification is triggered.
-
-Users can log in later to update or add new plants.
 ---
-🌍 Target Users
-Nurseries
 
-Gardeners & home garden enthusiasts
+## 🎯 **Purpose**
 
-Horticulturists
----
-🎯 Purpose
 EcoAlert aims to:
 
-Enhance climate resilience in horticulture 🌱
+- 🌿 Enhance **climate resilience in horticulture**
+- ⚡ Help users act quickly to **protect plants**
+- 💡 Promote **sustainable, technology-driven gardening practices**
 
-Help users act quickly to protect plants
-
-Promote sustainable, technology-driven gardening practices
 ---
-✏️ Future Enhancements
-Replace email alerts with real-time push notifications
 
-Dashboard with temperature and plant health analytics
+## ✏️ **Future Enhancements**
 
-Support more than 3 plants per user
-
-Optional integration with IoT sensors
-
-AI-powered plant care recommendations
+- 🔔 Replace email alerts with **real-time push notifications**
+- 📊 Dashboard with **temperature and plant health analytics**
+- 🌐 Optional integration with **IoT sensors**
+- 🤖 AI-powered **plant care recommendations**
