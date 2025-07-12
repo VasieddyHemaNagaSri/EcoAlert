@@ -42,3 +42,43 @@ EcoAlert/
 │   ├── update_plants.php   # Update plant data
 │   └── notify.php          # Notification logic
 └── README.md
+
+```
+---
+⚙️ How It Works
+User signs up and logs in.
+
+Adds up to three plants and a location.
+
+The system fetches current weather temperature for the location.
+
+If temperature exceeds the required temperature for any plant, a notification is triggered.
+
+Users can log in later to update or add new plants.
+---
+🌍 Target Users
+Nurseries
+
+Gardeners & home garden enthusiasts
+
+Horticulturists
+---
+🎯 Purpose
+EcoAlert aims to:
+
+Enhance climate resilience in horticulture 🌱
+
+Help users act quickly to protect plants
+
+Promote sustainable, technology-driven gardening practices
+---
+✏️ Future Enhancements
+Replace email alerts with real-time push notifications
+
+Dashboard with temperature and plant health analytics
+
+Support more than 3 plants per user
+
+Optional integration with IoT sensors
+
+AI-powered plant care recommendations
